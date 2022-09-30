@@ -2,7 +2,7 @@
     "name": "yarscript/laraveleton-dashboard",
     "description": "description",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "yar",
