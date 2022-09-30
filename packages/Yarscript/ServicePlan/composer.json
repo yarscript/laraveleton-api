@@ -1,0 +1,28 @@
+{
+    "name": "yarscript/laraveleton-serviceplan",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "yar",
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "require": {
+        "yarscript/laraveleton-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\ServicePlan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\ServicePlan\\Providers\\ServicePlanServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}

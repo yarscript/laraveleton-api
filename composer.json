@@ -62,6 +62,7 @@
         "yarscript/laraveleton-user": "*"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "fzaninotto/faker": "^1.9",
         "barryvdh/laravel-debugbar": "^3.1"
     },
@@ -84,15 +85,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/",
-            "Yarscript\\Api\\": "packages/Yarscript/Api/src/",
-            "Yarscript\\Core\\": "packages/Yarscript/Core/src",
-            "Yarscript\\User\\": "packages/Yarscript/User/src/",
-            "Yarscript\\Task\\": "packages/Yarscript/Task/src/",
-            "Yarscript\\Project\\": "packages/Yarscript/Project/src",
-            "Yarscript\\Dashboard\\": "packages/Yarscript/Dashboard/src/",
-            "Yarscript\\ServicePlan\\": "packages/Yarscript/ServicePlan/src/",
-            "Yarscript\\Organisation\\": "packages/Yarscript/Organisation/src/"
+            "App\\": "vendor/yarscript/laraveleton-core/src"
         }
     },
     "prefer-stable": true,
