@@ -1,8 +1,8 @@
 {
     "name": "yarscript/laraveleton-api",
     "description": "description",
-    "minimum-stability": "dev",
-    "license": "proprietary",
+    "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "yar",
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "yarscript/laraveleton-core": "*"
     },
     "autoload": {
         "psr-4": {
