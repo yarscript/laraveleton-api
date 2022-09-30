@@ -15,15 +15,7 @@ class CreateOrganisationsUsersTable extends Migration
     {
         Schema::create('organisations_users', function (Blueprint $table) {
             $table->unsignedBigInteger('organisation_id');
-            $table->foreign('organisation_id')
-                  ->on('organisations')
-                  ->references('organisation_id')
-                  ->onDelete('cascade');
             $table->bigInteger('user_id');
-            $table->foreign('user_id')
-                  ->on('users')
-                  ->references('user_id')
-                  ->onDelete('cascade');
             $table->tinyInteger('status_id');
             $table->timestamps();
         });
