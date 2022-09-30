@@ -2,11 +2,45 @@
     "name": "yarscropt/laraveleton-api-demo",
     "type": "project",
     "description": "Laraveleton demo API",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Yaroslav Shportko",
-            "email": "shportko@Yarscript.net"
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Core"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Api"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Dashboard"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Organisation"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Project"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/ServicePlan"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Task"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/User"
         }
     ],
     "require": {
@@ -17,7 +51,15 @@
         "laravel/ui": "^3.1",
         "prettus/l5-repository": "^2.6",
         "tymon/jwt-auth": "^1.0.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "guzzlehttp/guzzle": "^6.3",
+        "yarscript/laraveleton-core": "*",
+        "yarscript/laraveleton-api": "*",
+        "yarscript/laraveleton-dashboard": "*",
+        "yarscript/laraveleton-organisation": "*",
+        "yarscript/laraveleton-project": "*",
+        "yarscript/laraveleton-serviceplan": "*",
+        "yarscript/laraveleton-task": "*",
+        "yarscript/laraveleton-user": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9",
@@ -54,5 +96,5 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
