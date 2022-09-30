@@ -10,11 +10,10 @@
         }
     ],
     "require": {
-        "yarscript/laraveleton-core": "*"
     },
     "autoload": {
         "psr-4": {
-            "Yarscript\\Code\\": "src/"
+            "Yarscript\\Core\\": "src/"
         }
     },
     "extra": {
