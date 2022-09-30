@@ -1,7 +1,17 @@
 {
-    "name": "indiviar/laravel-admin",
+    "name": "yarscript/laraveleton-user",
+    "description": "description",
+    "minimum-stability": "stable",
     "license": "MIT",
-
+    "authors": [
+        {
+            "name": "yar",
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "require": {
+        "yarscript/laraveleton-core": "*"
+    },
     "autoload": {
         "psr-4": {
             "Yarscript\\User\\": "src/"
@@ -10,10 +20,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Yarscript\\User\\Providers\\UserServiceProvideer"
+                "Yarscript\\User\\Providers\\UserServiceProvider"
             ],
             "aliases": {}
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
