@@ -1,0 +1,19 @@
+{
+    "name": "indiviar/laravel-admin",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\User\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\User\\Providers\\UserServiceProvideer"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

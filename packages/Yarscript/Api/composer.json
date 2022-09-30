@@ -1,0 +1,27 @@
+{
+    "name": "yarscript/laraveleton-api",
+    "description": "description",
+    "minimum-stability": "dev",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "yar",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\Api\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\Api\\Providers\\ApiServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "indiviar/laravel-admin",
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\Dashboard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\Dashboard\\Providers\\DashboardServiceProvideer"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

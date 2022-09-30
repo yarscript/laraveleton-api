@@ -1,0 +1,58 @@
+{
+    "name": "yarscropt/laraveleton-api-demo",
+    "type": "project",
+    "description": "Laraveleton demo API",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Yaroslav Shportko",
+            "email": "shportko@Yarscript.net"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^1.0",
+        "laravel/framework": "^8.0",
+        "laravel/ui": "^3.1",
+        "prettus/l5-repository": "^2.6",
+        "tymon/jwt-auth": "^1.0.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "^1.9",
+        "barryvdh/laravel-debugbar": "^3.1"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": "stable"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": [
+                "barryvdh/laravel-debugbar"
+            ]
+        }
+    },
+
+    "autoload": {
+        "classmap": [
+            "database/seeders",
+            "database/factories"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Yarscript\\Api\\": "packages/Yarscript/Api/src/",
+            "Yarscript\\Core\\": "packages/Yarscript/Core/src",
+            "Yarscript\\User\\": "packages/Yarscript/User/src/",
+            "Yarscript\\Task\\": "packages/Yarscript/Task/src/",
+            "Yarscript\\Project\\": "packages/Yarscript/Project/src",
+            "Yarscript\\Dashboard\\": "packages/Yarscript/Dashboard/src/",
+            "Yarscript\\ServicePlan\\": "packages/Yarscript/ServicePlan/src/",
+            "Yarscript\\Organisation\\": "packages/Yarscript/Organisation/src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
