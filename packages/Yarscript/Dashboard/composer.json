@@ -1,7 +1,17 @@
 {
-    "name": "indiviar/laravel-admin",
-    "license": "MIT",
-
+    "name": "yarscript/laraveleton-dashboard",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "yar",
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "require": {
+        "yarscript/laraveleton-core": "*"
+    },
     "autoload": {
         "psr-4": {
             "Yarscript\\Dashboard\\": "src/"
@@ -10,10 +20,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Yarscript\\Dashboard\\Providers\\DashboardServiceProvideer"
+                "Yarscript\\Dashboard\\Providers\\DashboardServiceProvider"
             ],
             "aliases": {}
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
