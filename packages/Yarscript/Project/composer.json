@@ -1,0 +1,28 @@
+{
+    "name": "yarscript/laraveleton-project",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yar",
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "require": {
+        "yarscript/laraveleton-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\Project\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\Project\\Providers\\ProjectServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
