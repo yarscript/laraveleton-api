@@ -1,6 +1,6 @@
-# laraveleton-api
-## Laravel demo api
-
+<h1 align="center">laraveleton-api<h1>
+    <h3 align="center">Laravel api demo application</h3>
+    
 <hr>
 
 ## Install
