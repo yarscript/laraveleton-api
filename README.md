@@ -1,12 +1,9 @@
-# laraveleton-api
-## Laravel demo api
+MA
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/nwidart/laravel-modules.svg?style=flat-square)](https://packagist.org/packages/nwidart/laravel-modules)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/nWidart/laravel-modules/master.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-modules)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/nWidart/laravel-modules.svg?maxAge=86400&style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-modules/?branch=master)
-[![Quality Score](https://img.shields.io/scrutinizer/g/nWidart/laravel-modules.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-modules)
-[![Total Downloads](https://img.shields.io/packagist/dt/nwidart/laravel-modules.svg?style=flat-square)](https://packagist.org/packages/nwidart/laravel-modules)
+# laraveleton-api
+### Laravel demo api
+
+<hr>
 
 ## Install
 
@@ -65,6 +62,80 @@ By default, the App lovated at Core packagee so fill the vendor path:
 }
 ```
 
+<p>To let Compeser know about the local depeendencies we are useeing the following structure:</p>
+
+``` json
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Core"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Api"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Dashboard"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Organisation"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Project"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/ServicePlan"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/Task"
+        },
+        {
+            "type": "path",
+            "url": "packages/Yarscript/User"
+        }
+    ],
+```
+
+<p>Finally, how the required package's dependency looks like</p>
+
+``` json
+{
+    "name": "yarscript/laraveleton-core",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yar",
+            "email": "yar.yason@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Yarscript\\Core\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yarscript\\Core\\Providers\\CoreServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
+```
+
+***Conclusion***
+
+> ### So this stuff let us to build TRUE Modular Lavael's application structure. Clear with it, fine. Fron now, my dear reader, you are completeley open to dive into the true DDD with Laravel. Please enjoy to use it!
 
 ## Credits
 
@@ -75,3 +146,8 @@ By default, the App lovated at Core packagee so fill the vendor path:
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+
+
+ 🇺🇦 MADE IN UKRAINE 🇺🇦
+ 
