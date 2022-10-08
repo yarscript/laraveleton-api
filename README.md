@@ -47,7 +47,6 @@ By default, the App lovated at Core packagee so fill the vendor path:
 ``` json
 {
     "require": {
-        /** ... */
         "yarscript/laraveleton-core": "*",
         "yarscript/laraveleton-api": "*",
         "yarscript/laraveleton-dashboard": "*",
