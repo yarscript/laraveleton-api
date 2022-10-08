@@ -1,5 +1,3 @@
-MA
-
 # laraveleton-api
 ### Laravel demo api
 
