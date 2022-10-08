@@ -47,12 +47,12 @@ By default, the App lovated at Core packagee so fill the vendor path:
 
 ### packages autoloading
 
-<p>All the packages includes src/composer.json depeendencies file</p>
+<p>All the packages includes src/composer.json depeendencies file so we need to put them at the "require" as dependencies </p>
 
 ``` json
 {
     "require": {
-        ...
+        /** ... */
         "yarscript/laraveleton-core": "*",
         "yarscript/laraveleton-api": "*",
         "yarscript/laraveleton-dashboard": "*",
