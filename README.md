@@ -1,5 +1,5 @@
 # laraveleton-api
-### Laravel demo api
+## Laravel demo api
 
 <hr>
 
@@ -16,6 +16,8 @@ composer install
 ```
 
 ## Autoloading
+
+
 
 ### root composer.json autoload
 
@@ -36,7 +38,6 @@ By default, the App lovated at Core packagee so fill the vendor path:
 }
 ```
 
-<hr>
 
 ### packages autoloading
 
