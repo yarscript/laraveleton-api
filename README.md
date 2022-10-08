@@ -15,9 +15,7 @@ git clone https://github.com/yarscript/laraveleton-api.git
 composer install
 ```
 
-### Autoloading
-
-<hr>
+## Autoloading
 
 ### root composer.json autoload
 
