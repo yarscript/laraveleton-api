@@ -1,4 +1,4 @@
-<h1 align="center">laraveleton-api<h1>
+<h1 align="center">laraveleton-api</h1>
 
     <p align="center">Laravel-based API demo app with packaging structure</p>
 
