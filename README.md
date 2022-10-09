@@ -5,7 +5,12 @@
 /** the following idea of packaging respresented in monolyte architecture so i don't cared some thins like migrations publishing  */
 </h6>
 
+<br>
+<hr>
+<br>
+
 ## Dependencies
+
 ```json
     "require": {
         "php": "^7.4|^8.0",
@@ -84,6 +89,8 @@ By default, the App lovated at Core packagee so fill the vendor path:
     },
 }
 ```
+
+###
 
 <p>To let Compeser know about the local depeendencies we are useeing the following structure:</p>
 
