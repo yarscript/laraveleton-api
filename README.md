@@ -1,6 +1,6 @@
 <h1 align="center">laraveleton-api</h1>
 
-<p align="center">:ninja: Laravel-based API demo app with packaging structure :ninja:</p>
+<h6 align="center">:ninja: Laravel-based API demo app with packaging structure :ninja:</h6>
 <p align="center">
 /** the following idea of packaging respresented in monolyte architecture so i don't cared some thins like migrations publishing  */
 </p>
