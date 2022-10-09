@@ -1,6 +1,38 @@
 <h1 align="center">laraveleton-api</h1>
 
 <p align="center">:ninja: Laravel-based API demo app with packaging structure :ninja:</p>
+<p>
+```php
+/** the following idea of packaging respresented in monolyte architecture so i don't cared some thins like migrations publishing  */
+```
+</p>
+
+## Dependencies
+```json
+    "require": {
+        "php": "^7.4|^8.0",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^1.0",
+        "laravel/framework": "^8.0",
+        "laravel/ui": "^3.1",
+        "prettus/l5-repository": "^2.6",
+        "tymon/jwt-auth": "^1.0.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "yarscript/laraveleton-core": "*",
+        "yarscript/laraveleton-api": "*",
+        "yarscript/laraveleton-dashboard": "*",
+        "yarscript/laraveleton-organisation": "*",
+        "yarscript/laraveleton-project": "*",
+        "yarscript/laraveleton-serviceplan": "*",
+        "yarscript/laraveleton-task": "*",
+        "yarscript/laraveleton-user": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "fzaninotto/faker": "^1.9",
+        "barryvdh/laravel-debugbar": "^3.1"
+    },
+```
 
 ## Install
 
@@ -10,9 +42,7 @@ To install through Composer, by run the following command:
 git clone https://github.com/yarscript/laraveleton-api.git
 ```
 
-``` bash
-composer install
-```
+Then.. Deefault laravel deploy
 
 ## Autoloading
 
